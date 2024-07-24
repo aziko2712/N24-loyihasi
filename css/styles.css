@@ -7,3 +7,13 @@ body {
     margin: 0;
     font-weight: 16px;
 }
+
+/* CONTAINER */
+.container {
+    width: 100%;
+    max-width: 1460px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
