@@ -85,7 +85,6 @@ img {
 .lang-toogle {
     display: flex;
     padding: 3px;
-    margin-right: 25px;
     border-radius: 39px;
     background-color: rgba(220, 230, 255, 1);
     
@@ -131,6 +130,15 @@ img {
     list-style: none;
 }
 
+header ul a {
+    text-decoration: none;
+    font-family: Rubik;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.33px;
+    text-align: center;
+    color: rgba(127, 127, 127, 1);
+}
 /* MAIN */
 
 /* CARDS */
@@ -169,3 +177,41 @@ img {
     text-align: center;
 }
 
+/* SECTION WORLD */
+.world {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.cards-column-second {
+    width: 797px;
+    height: 205px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards-img-second {
+    width: 210px;
+    height: 165px;
+    padding-top: 20px;
+}
+
+.text-second {
+    width: 535px;
+    height: 128px;
+}
+
+.text-second-header {
+    padding: 0;
+    margin: 0;
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    color: black;
+}
