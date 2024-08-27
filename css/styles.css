@@ -335,3 +335,126 @@ header ul a {
     height: 25px;
     object-fit: contain;
 }
+
+/* CONTACT-PAGE */
+.contact-page {
+
+}
+.contact-page-heading {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 500;
+    color: #000;
+}
+.contact-page-content {
+    display: flex;
+}
+
+.contact-page-form {
+    width: 696px;
+}
+
+.form {
+}
+
+.form-group-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group-wrapper:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.form-group-wrapper .form-group {
+    width: calc(50% - 5px);
+    margin-bottom: 0;
+}
+
+.form-group:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.form-field {
+    display: block;
+    width: 100%;
+    padding: 18px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.form-field-textarea {
+    min-height: 180px;
+    resize: vertical;
+}
+
+.button {
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.96px;
+    text-align: left;
+    padding: 13px 20px 13px 20px;
+    border-radius: 10px;
+    background-color: rgba(114, 150, 236, 1);
+    color: #fff;
+    ;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.button:active {
+    opacity: 0.6;
+}
+
+/* CONTACT-PAGE */
+
+.contact-page-info {
+    width: 494px;
+    margin-left: 10px;
+}
+
+.contact-page-definitions-card {
+    height: 323.53px;
+}
+
+.definitions-card {
+    padding: 40px 25px;
+    margin: 0;
+    border-radius: 10px;
+    background-color: #f6f6f6;
+    color: #000;
+}
+.definitions-card-item {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.definitions-card-item:nth-of-type(1) {
+    padding-top: 0;
+}
+
+.definitions-card-item:not(:last-child) {
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.definitions-card-title {
+    margin-bottom: 7px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.definitions-card-value {
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0;
+}
